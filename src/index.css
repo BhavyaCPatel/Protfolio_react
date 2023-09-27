@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,7 +9,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+::-webkit-scrollbar{
+  width: 15px;
+  background: #0B1320;
+}
+::-webkit-scrollbar-thumb{
+  background-color: gold;
+  border-radius: 10px;
+}
+.typed-cursor{
+  font-size: 2.25rem;
+  color: gray;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
