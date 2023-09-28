@@ -1,9 +1,33 @@
 import React from 'react'
-
+import potrait from './Assets/img5.jpg'
 const About = () => {
+  const style = {
+    borderBottom: '4px solid #FFD700'
+};
   return (
-    <div><br /><br /><br />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia voluptates commodi ut repellendus hic enim maiores sapiente quas tempore recusandae, minima est nisi consequuntur voluptatem animi iure omnis nostrum accusantium natus? Recusandae, aperiam facilis nulla vitae ducimus ea! Tempora fuga repellendus ratione quae assumenda fugit sequi, corporis ea architecto quas veritatis minima doloribus, obcaecati reiciendis velit laborum placeat eius explicabo. Eveniet id vero dolorum corrupti mollitia dicta quas ad aspernatur, eaque deserunt cum odio autem non animi corporis unde suscipit totam earum ipsa soluta cupiditate. Commodi ullam incidunt illo at itaque velit odio, aut eligendi alias nam magnam rem ut veniam ea explicabo ipsa nobis, quasi nostrum dolore a in! Est, quam sed eaque harum esse consequatur expedita. Perferendis minima quod eum commodi explicabo suscipit exercitationem deserunt similique, quas tempora at consectetur cum corporis. Deleniti temporibus accusantium, maiores placeat tenetur quidem, commodi eos eveniet molestiae repellendus quae cupiditate consequuntur velit laboriosam provident eius soluta. Aliquam laudantium fugit ipsa reprehenderit quae, cumque excepturi deleniti quibusdam pariatur sunt voluptatibus distinctio accusantium aliquid! Animi magnam id consectetur ipsa minus nobis voluptas ipsum natus, expedita harum, aliquid aut. Pariatur vel, itaque blanditiis iusto sit mollitia perspiciatis exercitationem ut beatae odio, vero a delectus magni repudiandae nam quo doloremque neque, nihil nemo dolore obcaecati? Voluptatem vel consequuntur ratione quia temporibus autem, quasi molestias minus veritatis fugiat dolorem quas. Odio, harum? Consequatur laborum minus, earum ut quas, vero in maxime ad dolor magnam quia ea autem odio ducimus officia incidunt quaerat magni deleniti quibusdam. Voluptatibus deleniti sequi impedit cupiditate eligendi esse itaque iste id natus molestias veniam, et dolor suscipit error consequuntur obcaecati inventore a. Laboriosam sed consequatur quibusdam eos esse aspernatur enim veritatis consequuntur tenetur placeat ex harum molestias fugiat distinctio, aut suscipit nulla tempore, voluptate nostrum libero. Maiores voluptates distinctio illo neque illum repudiandae unde amet officiis. Reprehenderit ipsam asperiores expedita ducimus id delectus quae aliquid natus qui inventore? Fugiat accusamus laborum dignissimos explicabo tempora magnam maiores voluptate incidunt. Asperiores enim animi labore blanditiis dolorum delectus hic ea illo, quaerat iusto accusamus culpa minima cupiditate harum totam vitae fugiat iste voluptates natus velit doloremque eligendi dolores ducimus! Neque pariatur magnam ab voluptatem voluptas ducimus amet illo et suscipit ipsum veniam ex ipsa non assumenda repudiandae, impedit iste eaque tempora officiis, saepe aliquid. Molestias perferendis, officia quasi eius fuga placeat perspiciatis sed quas ullam reiciendis enim ducimus neque deleniti unde, doloribus libero quo magnam necessitatibus maiores magni. Voluptate placeat sequi quia accusantium odio nesciunt ducimus, fugit aliquid fuga cupiditate vero saepe libero nihil. Asperiores vel nam voluptatem, suscipit maxime, vero sed dolores iste quod eveniet omnis odio molestiae ratione harum modi hic. Vel aliquam expedita placeat esse distinctio quia vitae similique soluta sequi porro quae cupiditate nihil, sint quas, rerum eius iure dolore totam laudantium. Ipsum, quam. Ipsam odio sed laudantium perferendis laboriosam quaerat expedita nesciunt ea tenetur! Similique ex tenetur amet hic aperiam. Ullam nesciunt aspernatur, error corrupti odit optio sapiente, labore aperiam eius soluta deserunt, ex rerum deleniti assumenda amet? Repellendus, tempora.</div>
+    <div className='container mx-auto'>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-navy-blue">
+      <div className="p-4">
+        <img src={potrait} alt="" className="w-3/4 h-3/4 ml-20 border-8 border-slate-800" />
+      </div>
+      <div className="p-4">
+      <div className='text-center'>
+        <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue " style={style}>I'm Bhavya Patel</span>
+        </div>
+        <p className="text-1xl font-semibold my-10 text-cream">A passionate web developer with a keen eye for crafting beautiful and functional websites. Welcome to my portfolio, where I'll take you on a journey through some of my most exciting projects and experiences.Web development isn't just a career for me, it's my creative outlet. From the moment I built my first website, I knew I had found my calling. I thrive on the ever-evolving nature of the web, and I am dedicated to staying at the forefront of technology to deliver the best solutions for my clients.</p>
+        <div className="text-center mt-10">
+          <a
+            href="https://drive.google.com/file/d/1Ii0a9ZKDbVgjBvmoCh6ocs-8gWda_pHx/view?usp=drive_link"
+            download="Resume_Bhavya.pdf"
+            target='__blank'
+            className="bg-gold text-navy-blue px-6 py-3 rounded-full text-lg font-semibold hover:bg-yellow-500 hover:text-navy-blue transition duration-300 ease-in-out"
+          >
+            Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
   )
 }
 

@@ -9,6 +9,8 @@ module.exports = {
         'navy-blue': '#0B1320',
         'cream': '#F8F8FF',
         'gold': '#FFD700',
+        'green-blue': '#62B8AF',
+        'dgreen-blue': '#16796F'
       },
     },
   },

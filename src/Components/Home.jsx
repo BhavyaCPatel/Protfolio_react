@@ -1,9 +1,9 @@
 import React from 'react'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-// import About from './About';
-// import Contact from './Contact';
 import image from './Assets/images-removebg-preview.png'
+import About from './About';
+import Skills from './Skills';
 const Home = () => {
   const el = useRef(null);
 
@@ -39,6 +39,8 @@ const Home = () => {
         <img src={image} alt="" className="w-full h-auto" />
       </div>
     </div>
+    <About/>
+    <Skills/>
     </div>
   )
 }
