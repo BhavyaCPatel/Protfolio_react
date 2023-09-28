@@ -23,10 +23,7 @@ body {
   color: gray;
 }
 .bar{
-  width: 24rem;
-  height: 4px;
-  background:#FFD700;
-  margin-top: 15px;
+  border-bottom: 4px solid #FFD700;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

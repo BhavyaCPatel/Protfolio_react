@@ -4,6 +4,8 @@ import { useEffect, useRef } from "react";
 import image from './Assets/images-removebg-preview.png'
 import About from './About';
 import Skills from './Skills';
+import RecentWorks from './RecentWorks';
+import Contact from './Contact';
 const Home = () => {
   const el = useRef(null);
 
@@ -29,7 +31,7 @@ const Home = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-navy-blue">
       {/* Text Content */}
       <div className="p-4">
-        <h1 className="text-3xl font-semibold mb-4 text-gold">Hello, I'm</h1>
+        <h1 className="text-3xl font-semibold mb-4 text-green-blue">Hello, I'm</h1>
         <h1 className="text-6xl font-semibold mb-4 text-gold">Bhavya Patel</h1>
         <span className="text-4xl text-gold" ref={el}></span>
       </div>
@@ -41,6 +43,8 @@ const Home = () => {
     </div>
     <About/>
     <Skills/>
+    <RecentWorks/>
+    <Contact/>
     </div>
   )
 }

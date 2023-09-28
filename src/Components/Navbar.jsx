@@ -23,6 +23,9 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
+          <li className="inline-block">
+            <a href="https://theinformativecorner.netlify.app/" className="text-gold hover:underline">Blogs</a>
+          </li>
         </ul>
       </div>
     </nav>

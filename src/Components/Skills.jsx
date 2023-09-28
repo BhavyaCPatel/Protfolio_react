@@ -1,14 +1,11 @@
 import React from 'react'
 
 const Skills = () => {
-    const style = {
-        borderBottom: '4px solid #FFD700'
-    };
 
 return (
     <div className='container mx-auto bg-navy-blue mt-16'>
         <div className=' text-center'>
-        <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue " style={style}>Skills</span>
+        <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">Skills</span>
         </div><br /><br />
         <div className="container flex justify-center flex-wrap">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="180" height="180" viewBox="0 0 48 48">

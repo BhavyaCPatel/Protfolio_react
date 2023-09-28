@@ -1,0 +1,28 @@
+.containers {
+    position: relative;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 80%;
+    height: 350px;
+    transition: .7s ease;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+.middle {
+    transition: .7s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+.containers:hover .image {
+    opacity: 0.4;
+    transform: translateY(-0.75em);
+}
+.containers:hover .middle {
+    opacity: 1;
+}
