@@ -9,6 +9,7 @@ body {
   background: #0B1320;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar{
   width: 15px;

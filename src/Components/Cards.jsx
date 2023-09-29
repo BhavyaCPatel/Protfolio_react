@@ -4,10 +4,10 @@ import './Cards.css'
 const Cards = (props) => {
   return (
     <div>
-                <div class="containers flex justify-center items-center">
-                    <img src={props.image} alt="travel" class="image"/>
-                    <div class="middle">
-                        <div class="pl-10 text-cream text-lg">
+                <div className="containers flex justify-center items-center">
+                    <img src={props.image} alt="travel" className="image"/>
+                    <div className="middle">
+                        <div className="pl-10 text-cream text-lg">
                             <h3 className='text-center text-2xl pb-5'>{props.title}</h3>
                             <p className='pl-5'>{props.desc}</p>
                             <div className="text-center mt-10">

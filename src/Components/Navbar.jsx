@@ -19,6 +19,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="inline-block">
+            <a href="#about" className="text-gold hover:underline">
+              About
+            </a>
+          </li>
+          <li className="inline-block">
+            <a href="#contact" className="text-gold hover:underline">
+              Contact
+            </a>
+          </li>
+          <li className="inline-block">
             <Link to="/projects" className="text-gold hover:underline">
               Projects
             </Link>

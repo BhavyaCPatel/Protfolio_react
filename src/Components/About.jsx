@@ -2,12 +2,15 @@ import React from 'react'
 import portrait from './Assets/img5.jpg'
 const About = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto' id='about'>
+      <div className=' text-center' data-aos='fade-right' data-aos-duration="4000">
+        <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">About</span>
+        </div><br /><br />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-navy-blue">
-      <div className="p-4">
+      <div className="p-4" data-aos='fade-up' data-aos-duration="4000">
         <img src={portrait} alt="" className="w-3/4 h-3/4 ml-20 border-8 border-slate-800" />
       </div>
-      <div className="p-4">
+      <div className="p-4" data-aos='fade-left' data-aos-duration="4000">
       <div className='text-center'>
         <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">I'm Bhavya Patel</span>
         </div>

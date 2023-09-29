@@ -8,11 +8,11 @@ import { FaLinkedin } from "react-icons/fa6";
 const Contact = () => {
   return (
     <div id="contact" className="container mx-auto p-8">
-      <div className=' text-center'>
+      <div className=' text-center'data-aos='fade-up' data-aos-duration="4000">
         <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">Contact</span>
       </div><br /><br />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-        <div className="col-span-1">
+        <div className="col-span-1" data-aos='fade-right' data-aos-duration="4000" data-aos-delay='1000'>
             <p className="text-lg font-semibold text-gold pb-5">For more information, contact me:</p>
             <p className="text-cream">
               <span className="inline-block align-middle">
@@ -33,7 +33,7 @@ const Contact = () => {
               bhavyaaes@gmail.com
             </p>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="col-span-1">
               <input
