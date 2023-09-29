@@ -11,6 +11,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
+nav .scroll{
+  cursor: pointer;
+}
 ::-webkit-scrollbar{
   width: 15px;
   background: #0B1320;

@@ -2,7 +2,7 @@ import React from 'react'
 import portrait from './Assets/img5.jpg'
 const About = () => {
   return (
-    <div className='container mx-auto' id='about'>
+    <div className='container mx-auto' id='about' title='about'>
       <div className=' text-center' data-aos='fade-right' data-aos-duration="4000">
         <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">About</span>
         </div><br /><br />

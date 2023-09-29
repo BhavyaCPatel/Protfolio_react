@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './Assets/Logo2.png';
+import {Link as Scroll } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -14,27 +15,27 @@ const Navbar = () => {
         {/* Menu */}
         <ul className="space-x-6">
           <li className="inline-block">
-            <Link to="/" className="text-gold hover:underline">
+            <Link to="/" className="text-gold hover:text-cream">
               Home
             </Link>
           </li>
           <li className="inline-block">
-            <a href="#about" className="text-gold hover:underline">
+            <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500} className="text-gold hover:text-cream scroll">
               About
-            </a>
+            </Scroll>
           </li>
           <li className="inline-block">
-            <a href="#contact" className="text-gold hover:underline">
+          <Scroll activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500} className="text-gold hover:text-cream scroll">
               Contact
-            </a>
+            </Scroll>
           </li>
           <li className="inline-block">
-            <Link to="/projects" className="text-gold hover:underline">
+            <Link to="/projects" className="text-gold hover:text-cream">
               Projects
             </Link>
           </li>
           <li className="inline-block">
-            <a href="https://theinformativecorner.netlify.app/" className="text-gold hover:underline">Blogs</a>
+            <a href="https://theinformativecorner.netlify.app/" className="text-gold hover:text-cream">Blogs</a>
           </li>
         </ul>
       </div>
