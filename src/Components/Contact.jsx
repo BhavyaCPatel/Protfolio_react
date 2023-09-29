@@ -2,9 +2,7 @@ import React from 'react';
 import { ImLocation } from "react-icons/im";
 import { IoCall } from "react-icons/io5";
 import { MdAlternateEmail } from "react-icons/md";
-import { FaGithub } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
+
 const Contact = () => {
   return (
     <div id="contact" className="container mx-auto p-8" title='contact'>
@@ -84,11 +82,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-10">
-        <a href="https://www.linkedin.com/in/bhavya-patel-b2820322a/" className='text-slate-500 pr-5'><FaLinkedin/></a>
-        <a href="https://twitter.com/PatelBhavyaaes" className='text-slate-500 px-5'><FaXTwitter/></a>
-        <a href="https://github.com/BhavyaCPatel" className='text-slate-500 px-5'><FaGithub/></a>
-    </div>
     </div>
   );
 };

@@ -4,9 +4,11 @@ import avirat from './Assets/avirat.png'
 import blogs from './Assets/blogs.png'
 import applec from './Assets/applec.png'
 import clearsky from './Assets/clearsky.png'
+import { Link } from 'react-scroll'
+import { NavLink } from 'react-router-dom'
 const RecentWorks = () => {
   return (
-    <div>
+    <div className='my-10'>
         <div className=' text-center mt-10' data-aos='fade-left' data-aos-duration="4000">
           <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">Recent Works</span>
         </div><br /><br />
@@ -43,6 +45,12 @@ const RecentWorks = () => {
               source='https://github.com/BhavyaCPatel/Weather-app'
               demo='https://clearskyforecast.netlify.app/'/>
             </div>
+        </div>
+        <div className="text-center mt-14">
+          <NavLink to="/projects" className="border-2 border-gold text-gold px-6 py-3 rounded-full text-lg font-semibold hover:bg-gold hover:text-navy-blue transition duration-300 ease-in-out"
+          >
+            View More
+          </NavLink>
         </div>
     </div>
   )
