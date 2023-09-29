@@ -4,7 +4,6 @@ import avirat from './Assets/avirat.png'
 import blogs from './Assets/blogs.png'
 import applec from './Assets/applec.png'
 import clearsky from './Assets/clearsky.png'
-import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
 const RecentWorks = () => {
   return (
