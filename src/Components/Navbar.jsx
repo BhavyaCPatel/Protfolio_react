@@ -35,7 +35,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="inline-block">
-            <a href="https://theinformativecorner.netlify.app/" className="text-gold hover:text-cream">Blogs</a>
+            <a href="https://theinformativecorner.netlify.app/" target='__blank' className="text-gold hover:text-cream">Blogs</a>
           </li>
         </ul>
       </div>

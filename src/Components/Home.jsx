@@ -6,6 +6,7 @@ import About from './About';
 import Skills from './Skills';
 import RecentWorks from './RecentWorks';
 import Contact from './Contact';
+import Navbar from './Navbar';
 const Home = () => {
   const el = useRef(null);
 
@@ -28,6 +29,7 @@ const Home = () => {
   }, []);
   return (
     <div>
+      <Navbar/>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-navy-blue">
       <div className="p-4" data-aos='fade-left' data-aos-duration='4000' data-aos-delay='400'>
         <h1 className="text-3xl font-semibold mb-4 text-gold">Hello, I'm</h1>
