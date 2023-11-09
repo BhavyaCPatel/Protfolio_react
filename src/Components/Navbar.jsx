@@ -76,7 +76,7 @@ function App() {
             </ul>
           </div>
           : 
-          <div className={`text-sm lg:flex-grow space-x-6 `}>
+          <div className={`text-lg lg:flex-grow space-x-6`}>
               <Link to="/" className="text-gold hover:text-cream">
                 Home
               </Link>
