@@ -56,7 +56,7 @@ function App() {
                 </Scroll>
               </li>
               <li className='m-3'>
-                <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500} className="text-gold hover:text-cream scroll">
+                <Scroll activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500} className="text-gold hover:text-cream scroll">
                   <FiPhone style={{ display: 'inline-block' }}/>&nbsp;
                   Contact
                 </Scroll>
