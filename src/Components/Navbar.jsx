@@ -83,7 +83,7 @@ function App() {
               <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500} className="text-gold hover:text-cream scroll">
                 About
               </Scroll>
-              <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500} className="text-gold hover:text-cream scroll">
+              <Scroll activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500} className="text-gold hover:text-cream scroll">
                 Contact
               </Scroll>
               <Link to="/projects" className="text-gold hover:text-cream">
