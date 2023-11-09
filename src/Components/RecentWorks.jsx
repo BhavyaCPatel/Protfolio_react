@@ -11,7 +11,7 @@ const RecentWorks = () => {
         <div className=' text-center mt-10' data-aos='fade-left' data-aos-duration="4000">
           <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">Recent Works</span>
         </div><br /><br />
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-4 items-center m-5" >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center m-5" >
             <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
               <Cards
               image={avirat}  

@@ -2,7 +2,7 @@ import React from 'react'
 import './Cards.css'
 
 const Cards = (props) => {
-  return (
+return (
     <div>
                 <div className="containers flex justify-center items-center">
                     <img src={props.image} alt="travel" className="image"/>
@@ -24,7 +24,7 @@ const Cards = (props) => {
                     </div>
                 </div><br/>
     </div>
-  )
+)
 }
 
 export default Cards
