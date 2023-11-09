@@ -18,9 +18,9 @@ function Mainpage() {
         <Route path="/projects" element={<Projects />} />
       </Routes>
       <div className="flex justify-center mt-10 mb-5">
-        <a href="https://www.linkedin.com/in/bhavya-patel-b2820322a/" className='text-slate-500 pr-5'><FaLinkedin/></a>
-        <a href="https://twitter.com/PatelBhavyaaes" className='text-slate-500 px-5'><FaXTwitter/></a>
-        <a href="https://github.com/BhavyaCPatel" className='text-slate-500 px-5'><FaGithub/></a>
+        <a href="https://www.linkedin.com/in/bhavya-patel-b2820322a/" className='text-slate-500 pr-5 hover:text-cream'><FaLinkedin/></a>
+        <a href="https://twitter.com/PatelBhavyaaes" className='text-slate-500 px-5 hover:text-cream'><FaXTwitter/></a>
+        <a href="https://github.com/BhavyaCPatel" className='text-slate-500 px-5 hover:text-cream'><FaGithub/></a>
     </div>
     </div>
   );
