@@ -15,7 +15,7 @@ function App() {
     <nav className="flex items-center justify-between flex-wrap p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
         <Link to="/" className="text-gold text-3xl font-semibold">
-          <img src={logo} alt="logo" width={'70px'} height={'70px'} />
+          <img src={logo} alt="logo" width={'90px'} height={'90px'} />
         </Link>
       </div>
       <div className="block lg:hidden">

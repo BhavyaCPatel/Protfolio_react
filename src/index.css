@@ -6,7 +6,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background: #0B1320;
+  background: #0b1b34;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -16,7 +16,7 @@ nav .scroll{
 }
 ::-webkit-scrollbar{
   width: 15px;
-  background: #0B1320;
+  background: #0b1b34;
 }
 ::-webkit-scrollbar-thumb{
   background-color: #FFD700;
