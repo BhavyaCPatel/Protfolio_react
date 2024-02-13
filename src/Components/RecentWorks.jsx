@@ -5,6 +5,7 @@ import blogs from './Assets/blogs.png'
 import applec from './Assets/applec.png'
 import clearsky from './Assets/clearsky.png'
 import shoppingCart from './Assets/shoppingCart.png'
+import eventara from './Assets/eventara.png'
 import todo from './Assets/todo.png'
 import { NavLink } from 'react-router-dom'
 const RecentWorks = () => {
@@ -14,6 +15,14 @@ const RecentWorks = () => {
           <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">Recent Works</span>
         </div><br /><br />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center m-5" >
+            <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
+              <Cards
+              image={eventara}  
+              title='EvenTara' 
+              desc='Welcome to EvenTara, your go-to event management solution! Create, update, and delete events seamlessly with authentication and authorization powered by Clerk. Integrate Stripe for secure payment processing.'
+              source='https://github.com/BhavyaCPatel/EvenTara'
+              demo='https://eventara.vercel.app/'/>
+            </div>
             <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
               <Cards
               image={shoppingCart}  
@@ -53,14 +62,6 @@ const RecentWorks = () => {
               desc="A clone of apple's official website built with html, css and bootstrap."
               source='https://github.com/BhavyaCPatel/Apple-Clone'
               demo='https://applec.netlify.app/'/>
-            </div>
-            <div  data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
-              <Cards
-              image={clearsky}
-              title='ClearSky Forecast'
-              desc='ClearSky Forecast is a weather application that allows users to fetch and view weather information for any city.'
-              source='https://github.com/BhavyaCPatel/Weather-app'
-              demo='https://clearskyforecast.netlify.app/'/>
             </div>
         </div>
         <div className="text-center mt-14">
