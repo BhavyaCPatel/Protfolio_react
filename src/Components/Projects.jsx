@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import logo from './Assets/Logo2.png';
 const Project = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div>
             <nav className="bg-navy-blue text-cream py-4 px-3">
@@ -30,6 +35,19 @@ const Project = () => {
                 <div className=' text-center mt-10' data-aos='zoom-in' data-aos-duration="4000">
                     <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">Projects</span>
                 </div><br /><br />
+                <div className="container border-2 bg-green-blue rounded-lg my-6 mx-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
+                    <div className="text-navy-blue" >
+                        <h5 className="text-4xl text-center mt-5 ">ToDo App</h5>
+                        <p className="text-xl p-3">A Full Stack task managing app built with latest technologies capable of CRUD operations.
+                        </p>
+                        <div className="text-center my-4">
+                            <a href='https://github.com/BhavyaCPatel/To-Do-App' target='__blank' className="bg-gold text-navy-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:border-2 border-navy-blue  hover:text-navy-blue transition duration-300 ease-in-out mx-2">
+                                Source Code
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
                 <div className="container border-2 bg-green-blue rounded-lg my-6 mx-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
                     <div className="text-navy-blue" >
                         <h5 className="text-4xl text-center mt-5 ">EvenTara</h5>

@@ -6,6 +6,7 @@ import applec from './Assets/applec.png'
 import shoppingCart from './Assets/shoppingCart.png'
 import eventara from './Assets/eventara.png'
 import todo from './Assets/todo.png'
+import todoApp from './Assets/todoApp.png'
 import { NavLink } from 'react-router-dom'
 const RecentWorks = () => {
   return (
@@ -14,6 +15,13 @@ const RecentWorks = () => {
           <span className="text-5xl font-semibold pt-20 pb-3 text-dgreen-blue bar">Recent Works</span>
         </div><br /><br />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center m-5" >
+            <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
+              <Cards
+              image={todoApp}  
+              title='To Do App' 
+              desc=' This full-stack application allows users to efficiently manage their to-dos and user information with full CRUD(Create, Read, Update, Delete) functionality and secure authentication.'
+              source='https://github.com/BhavyaCPatel/To-Do-App'/>
+            </div>
             <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
               <Cards
               image={eventara}  
@@ -29,14 +37,6 @@ const RecentWorks = () => {
               desc='Welcome to ReduxBasket, your go-to shopping cart solution! Manage your items effortlessly with features like adding, removing, updating quantities, deleting items, and clearing the entire cart.'
               source='https://github.com/BhavyaCPatel/ShoppingCart_Redux'
               demo='https://reduxbasket.netlify.app/'/>
-            </div>
-            <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
-              <Cards
-              image={todo}
-              title='Task Master' 
-              desc='Welcome to TaskMaster, your task management solution! View and manage your tasks seamlessly with features like add, delete, and update.'
-              source='https://github.com/BhavyaCPatel/ToDo_Basic'
-              demo='https://taskmasterss.netlify.app/'/>
             </div>
             <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
               <Cards

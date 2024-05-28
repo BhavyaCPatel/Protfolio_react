@@ -1,5 +1,5 @@
 import React from 'react'
-import portrait from './Assets/img5.jpg'
+import portrait from './Assets/portrait.png'
 const About = () => {
   return (
     <div className='container mx-auto' id='about' title='about'>

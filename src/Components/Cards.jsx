@@ -14,9 +14,10 @@ const Cards = (props) => {
                             <a href={props.source} target='__blank' className="border border-current text-cream px-2 md:px-4 py-4 rounded-full text-sm font-semibold hover:bg-white hover:text-navy-blue transition duration-300 ease-in-out md:mx-5 mb-3 md:mb-0">
                                 Source Code
                             </a>
+                            {props.demo && 
                             <a href={props.demo} target='__blank' className="border border-current text-cream px-2 md:px-4 py-4 rounded-full text-sm font-semibold hover:bg-white hover:text-navy-blue transition duration-300 ease-in-out md:mx-5 mb-3 md:mb-0">
                                 Live Demo
-                            </a>
+                            </a>}
                         </div>
 
                     </div>
