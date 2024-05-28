@@ -5,7 +5,6 @@ import blogs from './Assets/blogs.png'
 import applec from './Assets/applec.png'
 import shoppingCart from './Assets/shoppingCart.png'
 import eventara from './Assets/eventara.png'
-import todo from './Assets/todo.png'
 import todoApp from './Assets/todoApp.png'
 import { NavLink } from 'react-router-dom'
 const RecentWorks = () => {
