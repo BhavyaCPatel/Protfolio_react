@@ -37,6 +37,19 @@ const Project = () => {
                 </div><br /><br />
                 <div className="container border-2 bg-green-blue rounded-lg my-6 mx-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
                     <div className="text-navy-blue" >
+                        <h5 className="text-4xl text-center mt-5 ">Student Management App</h5>
+                        <p className="text-xl p-3">This MERN stack Student Management System allows students to log in, view details, and check marksheets, while faculty can manage student details and upload marksheets.
+                        </p>
+                        <div className="text-center my-4">
+                            <a href='https://github.com/BhavyaCPatel/Students-Management' target='__blank' className="bg-gold text-navy-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:border-2 border-navy-blue  hover:text-navy-blue transition duration-300 ease-in-out mx-2">
+                                Source Code
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="container border-2 bg-green-blue rounded-lg my-6 mx-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
+                    <div className="text-navy-blue" >
                         <h5 className="text-4xl text-center mt-5 ">ToDo App</h5>
                         <p className="text-xl p-3">A Full Stack task managing app built with latest technologies capable of CRUD operations.
                         </p>

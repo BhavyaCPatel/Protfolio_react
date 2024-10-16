@@ -6,6 +6,7 @@ import applec from './Assets/applec.png'
 import shoppingCart from './Assets/shoppingCart.png'
 import eventara from './Assets/eventara.png'
 import todoApp from './Assets/todoApp.png'
+import studentManagement from './Assets/studentManagement.png'
 import { NavLink } from 'react-router-dom'
 const RecentWorks = () => {
   return (
@@ -16,9 +17,16 @@ const RecentWorks = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center m-5" >
             <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
               <Cards
+              image={studentManagement}  
+              title='Student Management App' 
+              desc='This MERN stack Student Management System allows students to log in, view details, and check marksheets, while faculty can manage student details and upload marksheets.'
+              source='https://github.com/BhavyaCPatel/Students-Management'/>
+            </div>
+            <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
+              <Cards
               image={todoApp}  
               title='To Do App' 
-              desc=' This full-stack application allows users to efficiently manage their to-dos and user information with full CRUD(Create, Read, Update, Delete) functionality and secure authentication.'
+              desc='This full-stack application allows users to efficiently manage their to-dos and user information with full CRUD(Create, Read, Update, Delete) functionality and secure authentication.'
               source='https://github.com/BhavyaCPatel/To-Do-App'/>
             </div>
             <div data-aos='zoom-in' data-aos-duration="4000" data-aos-delay='1000'>
