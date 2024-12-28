@@ -37,6 +37,37 @@ const Project = () => {
                 </div><br /><br />
                 <div className="container border-2 bg-green-blue rounded-lg my-6 mx-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
                     <div className="text-navy-blue" >
+                        <h5 className="text-4xl text-center mt-5 ">EvenTara</h5>
+                        <p className="text-xl p-3">Welcome to EvenTara, your go-to event management solution! Create, update, and delete events seamlessly with authentication and authorization powered by Clerk. Integrate Stripe for secure payment processing.
+                        </p>
+                        <div className="text-center my-4">
+                            <a href='https://github.com/BhavyaCPatel/EvenTara' target='__blank' className="bg-gold text-navy-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:border-2 border-navy-blue  hover:text-navy-blue transition duration-300 ease-in-out mx-2">
+                                Source Code
+                            </a>
+                            <a href='https://eventara.vercel.app/' target='__blank' className="bg-gold text-navy-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:border-2 border-navy-blue hover:text-navy-blue transition duration-300 ease-in-out mx-2">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="container border-2 bg-green-blue rounded-lg my-6 mx-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
+                    <div className="text-navy-blue" >
+                        <h5 className="text-4xl text-center mt-5 ">Medium Clone</h5>
+                        <p className="text-xl p-3">This is Medium Clone, your ultimate blogging platform! Effortlessly publish blogs with a rich-text editing experience powered by Tiptap. Enjoy seamless user authentication and a reliable backend hosted on Cloudflare for a secure blogging journey.
+
+                        </p>
+                        <div className="text-center my-4">
+                            <a href='https://github.com/BhavyaCPatel/Medium' target='__blank' className="bg-gold text-navy-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:border-2 border-navy-blue  hover:text-navy-blue transition duration-300 ease-in-out mx-2">
+                                Source Code
+                            </a>
+                            <a href='https://medium-ten-blue.vercel.app/' target='__blank' className="bg-gold text-navy-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:border-2 border-navy-blue hover:text-navy-blue transition duration-300 ease-in-out mx-2">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="container border-2 bg-green-blue rounded-lg my-6 mx-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
+                    <div className="text-navy-blue" >
                         <h5 className="text-4xl text-center mt-5 ">Student Management App</h5>
                         <p className="text-xl p-3">This MERN stack Student Management System allows students to log in, view details, and check marksheets, while faculty can manage student details and upload marksheets.
                         </p>
@@ -61,21 +92,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container border-2 bg-green-blue rounded-lg my-6 mx-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
-                    <div className="text-navy-blue" >
-                        <h5 className="text-4xl text-center mt-5 ">EvenTara</h5>
-                        <p className="text-xl p-3">Welcome to EvenTara, your go-to event management solution! Create, update, and delete events seamlessly with authentication and authorization powered by Clerk. Integrate Stripe for secure payment processing.
-                        </p>
-                        <div className="text-center my-4">
-                            <a href='https://github.com/BhavyaCPatel/EvenTara' target='__blank' className="bg-gold text-navy-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:border-2 border-navy-blue  hover:text-navy-blue transition duration-300 ease-in-out mx-2">
-                                Source Code
-                            </a>
-                            <a href='https://eventara.vercel.app/' target='__blank' className="bg-gold text-navy-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:border-2 border-navy-blue hover:text-navy-blue transition duration-300 ease-in-out mx-2">
-                                Live Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                
                 <div className="container border-2 bg-green-blue rounded-lg my-6 mx-1" data-aos='fade-left' data-aos-duration="4000" data-aos-delay='1000'>
                     <div className="text-navy-blue" >
                         <h5 className="text-4xl text-center mt-5 ">Prompt Forge</h5>
